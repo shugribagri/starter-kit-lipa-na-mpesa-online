@@ -1,0 +1,27 @@
+{
+  "name": "starket-kit-lipa-na-mpesa-online",
+  "version": "1.0.0",
+  "description": "starter kit for lipa na mpesa online",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "ngrok": "ngrok http http://localhost:8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "starter-kit-lipa-na-mpesa-online"
+  },
+  "author": "mwangikibui",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^8.9.2",
+    "ngrok": "^3.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
